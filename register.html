@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body align=center>
+    <form action="thanks.html" method="GET">
+        <table width="800" align="center" border="1">
+            <tr> 
+                <td colspan="2"><h1>Registration Form</h1></td>
+            </tr>
+            <tr>
+                <td><label for="fname">First name :</label></td>
+                <td><input type="text" id="fname" name="fname" required></td>
+            </tr>
+            <tr>
+                <td><label for="lname">Last name :</label></td>
+                <td><input type="text" id="lname" name="lname"></td>
+            </tr>
+            <tr>
+                <td><label for="username">Select a Username</label></td>
+                <td><input type="text" id="username" name="username"></td>
+            </tr>
+            <tr>
+                <td><label for="psw">Choose your password :</label></td>
+                <td><input type="password" id="psw" name="psw" required></td>
+            </tr>
+            <tr>
+                <td> Gender :</td>
+                <td><input type="radio" id="Male" name="gender" value="Male">
+                <label for="Male">Male</label><br>
+                <input type="radio" id="Female" name="gender" value="Female">
+                    <label for="Female">Female</label></td>
+            </tr>
+            <tr>
+                <td>Qualifications :</td>
+                <td>
+                    <input type="checkbox" id="qual1" name="qual1" value="School">
+                    <label for="qual1">School passout</label>
+                   
+                    <br>
+                    <input type="checkbox" id="qual2" name="qual2" value="Graduate">
+                    <label for="qual2">Graduate</label>
+                    
+                    <br>
+                    <input type="checkbox" id="qual3" name="qual3" value="PG">
+                    <label for="qual3">Post Graduate</label>
+                
+                    <br>
+                    <input type="checkbox" id="qual4" name="qual4" value="PhD">
+                    <label for="qual4">PhD</label></td>
+                </tr>
+                <tr>
+                    <td><label for="country">Select your country</label>
+            
+                    <td>
+                        <select name="country" id="country"> 
+                        <option value="India">India</option>
+                       <option value="United states of America">U.S.A</option>
+                        <option value="Cuba">Cuba</option>
+                        <option value="America">America</option>
+                        
+                        <option value="Pakistan">Paskistan</option>
+                        <option value="United Kingdom">United Kingdom</option>
+                    </select>
+                </td>
+                </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="address">Enter Address :</label>
+                    </td>
+                    <td><textarea name="address" id="address" cols="30" rows="10"></textarea></td>
+                    
+                   
+                </tr>
+                <tr>
+                    <td><label for="dob">Enter your Date Of Birth :</label></td>
+                     <td><input type="date" name="dob" id="dob"></td>
+                </tr>
+                <tr>
+                    <td><label for="photo">Upload your Photo :</label></td>
+                    <td><input type="file" name="photo" id="photo"></td>
+
+                </tr>
+                <tr>
+                    <td><label for="emailid">Enter your Email :</label></td>
+                    <td><input type="email" name="emailid" id="emailid"></td>
+                </tr>
+                <tr>
+                    <td><input type="reset"></td>
+                    <td><input type="submit"></td>
+                    
+                </tr>
+        </table>
+        
+
+    </form>
+    
+</body>
+</html>
